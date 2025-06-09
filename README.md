@@ -107,32 +107,6 @@
 - 서비스 호출 전후 주요 입력 파라미터, 실행 시간, 예외 발생 내역을 로깅하여 운영 단계에서 문제 추적 및 성능 모니터링 용이
 - Kotlin-logging 라이브러리로 경량화된 로깅 구현
 
-**[기술 요소]**
-
-**Spring AOP, Kotlin Logging**<br><br>
-
-## 프로젝트 구조
-```
-/src
-│
-├── /main
-│   ├── /kotlin
-│   │   └── com.zerobase.api
-│   │       ├── /api
-│   │       ├── /consumer
-│   │       ├── /css
-│   │       ├── /docker
-│   │       ├── /domain
-│   │       ├── /gradle
-│   │       ├── /kafka
-│   │       ├── /kafka-docker
-│   │       ├── /nginx
-│   │       └── /table
-│   └── /resources
-│       └── application.yml
-└── /test
-```
-
 **✅ 프로젝트 전체 구현 기능**
    
    **1️⃣ 대출 심사 요청 API**
